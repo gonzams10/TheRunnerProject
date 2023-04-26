@@ -5,7 +5,7 @@ using UnityEngine;
 public class TerrainMovement : MonoBehaviour
 {
     [SerializeField] private Transform position;
-    [SerializeField] private float terrainMovement;
+    [SerializeField] public float terrainMovement;
     // Update is called once per frame
     void Update()
     {
