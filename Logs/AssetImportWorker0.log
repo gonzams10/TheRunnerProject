@@ -557,3 +557,9 @@ Received Import Request.
   path: Assets/Scenes/Luciano.unity
   artifactKey: Guid(37bcb97a67b26e04e92a402f34c07b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Luciano.unity using Guid(37bcb97a67b26e04e92a402f34c07b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c21c875dd1e440382393da9572ace9') in 0.012493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.883928 seconds.
+  path: Assets/Scenes/Gonzalo.unity
+  artifactKey: Guid(8ff25fe9904f11b469a881d4fb6d449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gonzalo.unity using Guid(8ff25fe9904f11b469a881d4fb6d449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b195c3a4a95d3dbe981c7f859c6d3f78') in 0.019832 seconds 
