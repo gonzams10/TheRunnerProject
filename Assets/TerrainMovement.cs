@@ -5,10 +5,23 @@ using UnityEngine;
 public class TerrainMovement : MonoBehaviour
 {
     [SerializeField] private Transform position;
-    [SerializeField] public float terrainMovement;
+    [SerializeField] private Transform Endposition;
+    [SerializeField] private float moveSpeed;
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.forward * terrainMovement * Time.deltaTime;
+        Move();
+        
     }
+
+    public void Move() 
+    {
+        var distanceVector = Endposition.position - transform.position;
+        distanceVector.Normalize();
+        transform.position += distanceVector *moveSpeed *Time.deltaTime;
+
+
+    }
+
+
 }
